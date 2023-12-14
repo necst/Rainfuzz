@@ -1,0 +1,44 @@
+0000000000000000000000000000000000000000 9df634d4eaed6f49205b1eeac380a81f39ed4302 lakystrike1996 <luca.rullo@mail.polimi.it> 1612887055 +0100	commit (initial): Initial commit with a basic mutator implementation, a c++ module that
+9df634d4eaed6f49205b1eeac380a81f39ed4302 ec827b4d43a42ade7940c1537a477b339a073dcb lakystrike1996 <luca.rullo@mail.polimi.it> 1615745265 +0100	commit: aaa
+ec827b4d43a42ade7940c1537a477b339a073dcb f261afb6aac441f1eb1ad03d964a48f91f0eccef lakystrike1996 <luca.rullo@mail.polimi.it> 1616537803 +0100	commit: Finished implementation of a simple VPG.
+f261afb6aac441f1eb1ad03d964a48f91f0eccef 2d6ca09af7a69081dbf12b8ddca51e93f4eafcc4 lakystrike1996 <luca.rullo@mail.polimi.it> 1617727432 +0200	commit: Parametrized max seed size and log directory in mutator.py
+2d6ca09af7a69081dbf12b8ddca51e93f4eafcc4 3d8964dd048b23f36695604890842044e72a47dd lakystrike1996 <luca.rullo@mail.polimi.it> 1617727543 +0200	commit: removed size constraint check in mutator.cpp
+3d8964dd048b23f36695604890842044e72a47dd bc737fcc1f0984b8d0beb8af52305e37383c977a lakystrike1996 <luca.rullo@mail.polimi.it> 1617790112 +0200	commit: Introduced the possibility to use a random policy instead of the policy-gradient learned policy, in mutator.py
+bc737fcc1f0984b8d0beb8af52305e37383c977a 598bb6bd12a8d47fe21521a491b90279d2bf7d62 lakystrike1996 <luca.rullo@mail.polimi.it> 1620055227 +0200	commit: ok
+598bb6bd12a8d47fe21521a491b90279d2bf7d62 11d2cc02136910d5bda3350bb4876e5745ba27d6 lakystrike1996 <luca.rullo@mail.polimi.it> 1621273254 +0200	commit: ok
+11d2cc02136910d5bda3350bb4876e5745ba27d6 35960296bbbe6d0d3e318b134fa87b44cd1c0c9e lakystrike1996 <luca.rullo@mail.polimi.it> 1621275511 +0200	commit: ok
+35960296bbbe6d0d3e318b134fa87b44cd1c0c9e b9e07dcd87b98b0fb01403e4231cf21f3f8143c8 lakystrike1996 <luca.rullo@mail.polimi.it> 1622128576 +0200	commit: ok
+b9e07dcd87b98b0fb01403e4231cf21f3f8143c8 ba2bcc0414b4ba0998b70a39e657f2f3d566bd4c lakystrike1996 <luca.rullo@mail.polimi.it> 1622130457 +0200	commit: ok
+ba2bcc0414b4ba0998b70a39e657f2f3d566bd4c 4aaf07812a15b6d455ac511e59fae2c5a1f20dd8 lakystrike1996 <luca.rullo@mail.polimi.it> 1623956140 +0200	commit: Corrected a bug in the implementation of the PPO algorithm
+4aaf07812a15b6d455ac511e59fae2c5a1f20dd8 d3df1f9ca95a17db6757470e0b1bffd6ac14138a lakystrike1996 <luca.rullo@mail.polimi.it> 1624052414 +0200	commit: ok
+d3df1f9ca95a17db6757470e0b1bffd6ac14138a bc8b1e8382baf5475169980414885d4e0c61a50a lakystrike1996 <luca.rullo@mail.polimi.it> 1624053335 +0200	commit: ok
+bc8b1e8382baf5475169980414885d4e0c61a50a 97a66c270830ec07cc88374c74f0bebdf28e6167 lakystrike1996 <luca.rullo@mail.polimi.it> 1625245891 +0200	commit: Closing the connection when deinit message is received by the fuzzer.
+97a66c270830ec07cc88374c74f0bebdf28e6167 4ac8568368d3d4908cda67e0d93072e9c16405cb lakystrike1996 <luca.rullo@mail.polimi.it> 1625246305 +0200	commit: Reactivated logging
+4ac8568368d3d4908cda67e0d93072e9c16405cb df74a5f3753410f9ba742c8ba8a31af4c3edf73f lakystrike1996 <luca.rullo@mail.polimi.it> 1625247596 +0200	commit: Fixed a bug when closing the connection
+df74a5f3753410f9ba742c8ba8a31af4c3edf73f 21d6605de8c5ea4eb3a99a336b482cd9fb6d890d lakystrike1996 <luca.rullo@mail.polimi.it> 1625248453 +0200	commit: Moved the socket closing code into the finally block
+21d6605de8c5ea4eb3a99a336b482cd9fb6d890d 41cf41e2c9b1e5ceda4ac133db2a73fed7bec07b lakystrike1996 <luca.rullo@mail.polimi.it> 1625249216 +0200	commit: ok
+41cf41e2c9b1e5ceda4ac133db2a73fed7bec07b 07202b2961e373138114bb2a3570375a343d5183 lakystrike1996 <luca.rullo@mail.polimi.it> 1625249693 +0200	commit: ok
+07202b2961e373138114bb2a3570375a343d5183 daf80f1686545a933402550cb5a50de145140e6a lakystrike1996 <luca.rullo@mail.polimi.it> 1625427523 +0200	commit: Hyperparameters are now taken as arguments when launching mutator.py
+daf80f1686545a933402550cb5a50de145140e6a c15a317c092b28617f3925157933119f53041941 lakystrike1996 <luca.rullo@mail.polimi.it> 1625430834 +0200	commit: Fixed a bug.
+c15a317c092b28617f3925157933119f53041941 6cf0ad2c0cc08d470a12a4bb99215e20d44f7840 lakystrike1996 <luca.rullo@mail.polimi.it> 1625431594 +0200	commit: Fixed a bug
+6cf0ad2c0cc08d470a12a4bb99215e20d44f7840 a21c4b2267c895b2881e3b7c23a9146107b3fcf8 lakystrike1996 <luca.rullo@mail.polimi.it> 1625432330 +0200	commit: OK
+a21c4b2267c895b2881e3b7c23a9146107b3fcf8 301dd14b8cf84912b8eb8488183bfe6d07c7c6f7 lakystrike1996 <luca.rullo@mail.polimi.it> 1625433651 +0200	commit: ok
+301dd14b8cf84912b8eb8488183bfe6d07c7c6f7 6ae57b8a43976204dbbc871e36159ed1d0765c44 lakystrike1996 <luca.rullo@mail.polimi.it> 1625434735 +0200	commit: ok
+6ae57b8a43976204dbbc871e36159ed1d0765c44 d2fff7bdafddf55a37836e2ac2ff146e06bccbbb lakystrike1996 <luca.rullo@mail.polimi.it> 1625436016 +0200	commit: OK
+d2fff7bdafddf55a37836e2ac2ff146e06bccbbb 968b934ae3283de12a068192a9448c039054178f lakystrike1996 <luca.rullo@mail.polimi.it> 1625495204 +0200	commit: Ok
+968b934ae3283de12a068192a9448c039054178f a1fda75ef099a2fc358f966a53a109c7fb1b8d4f lakystrike1996 <luca.rullo@mail.polimi.it> 1626380214 +0200	commit: ok
+a1fda75ef099a2fc358f966a53a109c7fb1b8d4f ad21e51ae08e40876f032029732b3af014df3605 lakystrike1996 <luca.rullo@mail.polimi.it> 1626381409 +0200	commit: ok
+ad21e51ae08e40876f032029732b3af014df3605 3daa1ef9cf077c676b6b5fb3e22d4d971ce99a6d lakystrike1996 <luca.rullo@mail.polimi.it> 1626795781 +0200	commit: -ok
+3daa1ef9cf077c676b6b5fb3e22d4d971ce99a6d c925380c62ae423eb47b17c8fc7bfaf56bc58d79 lakystrike1996 <luca.rullo@mail.polimi.it> 1626816646 +0200	commit: ok
+c925380c62ae423eb47b17c8fc7bfaf56bc58d79 53837cc405330700b368503bf1e916a45f0c0a45 lakystrike1996 <luca.rullo@mail.polimi.it> 1627511979 +0200	commit: switched from socke communication to shared memory
+53837cc405330700b368503bf1e916a45f0c0a45 f286bfe7d258c35c546b3d43f364eaa0cb56c56d lakystrike1996 <luca.rullo@mail.polimi.it> 1627516528 +0200	commit: ok
+f286bfe7d258c35c546b3d43f364eaa0cb56c56d dfc0983a23001114802c4c548854cf8b2c335f2a lakystrike1996 <luca.rullo@mail.polimi.it> 1627516714 +0200	commit: ok
+dfc0983a23001114802c4c548854cf8b2c335f2a 3e90da6137561da1634a18fd494b9f5b4963da10 lakystrike1996 <luca.rullo@mail.polimi.it> 1627558635 +0200	commit: ok
+3e90da6137561da1634a18fd494b9f5b4963da10 123360946b4aed0e6bd1117d6c6cb32d85515d79 lakystrike1996 <luca.rullo@mail.polimi.it> 1627559528 +0200	commit: ok
+123360946b4aed0e6bd1117d6c6cb32d85515d79 853c272d61acaa28b33ddcca04578327c4c81d51 lakystrike1996 <luca.rullo@mail.polimi.it> 1627560246 +0200	commit: ok
+853c272d61acaa28b33ddcca04578327c4c81d51 1ef42d392d9f895b51972de758a992ca0acf791e lakystrike1996 <luca.rullo@mail.polimi.it> 1627577354 +0200	commit: ok
+1ef42d392d9f895b51972de758a992ca0acf791e 96dd290c7f48d93e61c3bc823f1f229e33d46b79 lakystrike1996 <luca.rullo@mail.polimi.it> 1627577993 +0200	commit: ok
+96dd290c7f48d93e61c3bc823f1f229e33d46b79 8bfc6b55f0a28c38aa271868cb3298fe8438288a lakystrike1996 <luca.rullo@mail.polimi.it> 1627578174 +0200	commit: ok
+8bfc6b55f0a28c38aa271868cb3298fe8438288a ee1ad0b0ca71318d9cddae6e945944f38b281a82 lakystrike1996 <luca.rullo@mail.polimi.it> 1627798548 +0200	commit: ok
+ee1ad0b0ca71318d9cddae6e945944f38b281a82 845a958a783744a17ca584392f4e616e0822536b lakystrike1996 <luca.rullo@mail.polimi.it> 1628766036 +0200	commit: Introduced code to close the semaphores when done.
+845a958a783744a17ca584392f4e616e0822536b 7628ab25b280360680eef44243ba58e578bf079b lakystrike1996 <luca.rullo@mail.polimi.it> 1628848812 +0200	commit: Parametrized the number of intermediate layers.

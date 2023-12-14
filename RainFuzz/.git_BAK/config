@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/AFLplusplus/AFLplusplus
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "stable"]
+	remote = origin
+	merge = refs/heads/stable

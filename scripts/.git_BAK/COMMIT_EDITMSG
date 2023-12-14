@@ -1,0 +1,13 @@
+Added scripts to plot and compare the n-moving_average of reward signals
+
+Signed-off-by: lakystrike1996 <luca.rullo@mail.polimi.it>
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#	new file:   plot_mavgn_rewards.py
+#	new file:   plot_nedges_exec_compare.py
+#	new file:   plot_nedges_time_compare.py
+#

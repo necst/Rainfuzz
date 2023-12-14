@@ -1,0 +1,42 @@
+0000000000000000000000000000000000000000 f7179e44f6c46fef318b6413d9c00693c1af4602 lakystrike1996 <luca.rullo@mail.polimi.it> 1618410764 +0200	clone: from https://github.com/AFLplusplus/AFLplusplus
+f7179e44f6c46fef318b6413d9c00693c1af4602 92222386d41f3972eaa1d8f2c4b26775e2e01be0 lakystrike1996 <luca.rullo@mail.polimi.it> 1619011093 +0200	commit: {backup commit} - started implementing our custom mutator
+92222386d41f3972eaa1d8f2c4b26775e2e01be0 9ef5f7ce436926414a9166c563f3952dce2ad610 lakystrike1996 <luca.rullo@mail.polimi.it> 1619188551 +0200	commit: {backup commit} - started implementing our custom mutator
+9ef5f7ce436926414a9166c563f3952dce2ad610 0df540c499573d59f118d31dc61f143df443f051 lakystrike1996 <luca.rullo@mail.polimi.it> 1619694387 +0200	commit: Completed custom mutator
+0df540c499573d59f118d31dc61f143df443f051 47b2f0e1c00a099c9eef23cb26ecf6fe337a5c68 lakystrike1996 <luca.rullo@mail.polimi.it> 1619723381 +0200	commit: Changed log directory
+47b2f0e1c00a099c9eef23cb26ecf6fe337a5c68 e72aad001543077f407a8889b953b511941010f6 lakystrike1996 <luca.rullo@mail.polimi.it> 1620046306 +0200	commit: re-enabled trimming, corrected a bug about the mutator.
+e72aad001543077f407a8889b953b511941010f6 38a250f770965c6a01b587604d9d3e72d9497ff8 lakystrike1996 <luca.rullo@mail.polimi.it> 1620397625 +0200	commit: Introduced new reward functions
+38a250f770965c6a01b587604d9d3e72d9497ff8 29b229456dd94b8c4de6120eaabc1c26ee830e0d lakystrike1996 <luca.rullo@mail.polimi.it> 1621604662 +0200	commit: Simil-Havoc stage
+29b229456dd94b8c4de6120eaabc1c26ee830e0d 1838fd6eb7acf4c4f2f12ea45add39868e4d884e lakystrike1996 <luca.rullo@mail.polimi.it> 1621606865 +0200	commit: Bug fix in the simil-havoc stage
+1838fd6eb7acf4c4f2f12ea45add39868e4d884e 82691213ad53e014b2e9779ac5706ef1f8455c4d lakystrike1996 <luca.rullo@mail.polimi.it> 1622120173 +0200	commit: Introduced macros to control pseudo-havoc stage
+82691213ad53e014b2e9779ac5706ef1f8455c4d 0e817a6f14ab36a538e553baeefcac0d1ef466c2 lakystrike1996 <luca.rullo@mail.polimi.it> 1622120855 +0200	commit: Changed when to perform pseudo-havoc
+0e817a6f14ab36a538e553baeefcac0d1ef466c2 074ec66f0348719e7bb5b1a531f77e11c13d4731 lakystrike1996 <luca.rullo@mail.polimi.it> 1622122741 +0200	commit: Bug-fix
+074ec66f0348719e7bb5b1a531f77e11c13d4731 4489269dc039ebda2dd996acb7418741ec92a06e lakystrike1996 <luca.rullo@mail.polimi.it> 1622801262 +0200	commit: Bug-fix in afl_fuzz_one_original
+4489269dc039ebda2dd996acb7418741ec92a06e 126ddeb35053081b4fd3945bb530cfa332a644b1 lakystrike1996 <luca.rullo@mail.polimi.it> 1623615557 +0200	commit: Fixed a bug that was causing the fuzzer to crash in some cases
+126ddeb35053081b4fd3945bb530cfa332a644b1 cb154d929d37088e537cb3dd4691b6db33a454be lakystrike1996 <luca.rullo@mail.polimi.it> 1623765947 +0200	commit: Wait for python server
+cb154d929d37088e537cb3dd4691b6db33a454be 4075a6034d925a7aa46e919b622dac3e7c15cdcd lakystrike1996 <luca.rullo@mail.polimi.it> 1624142500 +0200	commit: Solved a bug that caused the definition of the same function twice with some combinations of parameters.
+4075a6034d925a7aa46e919b622dac3e7c15cdcd 754c1e95b4603c3fd510b8440ac6e394c74d6d3d lakystrike1996 <luca.rullo@mail.polimi.it> 1624269794 +0200	commit: ok
+754c1e95b4603c3fd510b8440ac6e394c74d6d3d 2549651517b652724f1dd1256847daca3adf3b42 lakystrike1996 <luca.rullo@mail.polimi.it> 1624284143 +0200	commit: ok
+2549651517b652724f1dd1256847daca3adf3b42 ce053b372652eb584d07157385b72d5f46cf19b8 lakystrike1996 <luca.rullo@mail.polimi.it> 1624373370 +0200	commit: OK
+ce053b372652eb584d07157385b72d5f46cf19b8 9f6d9ca95c750cc93e93b01474c669857b92f177 lakystrike1996 <luca.rullo@mail.polimi.it> 1624818615 +0200	commit: ok
+9f6d9ca95c750cc93e93b01474c669857b92f177 cd71362ce166f33843a0b6a330e5b34d33a8fcc2 lakystrike1996 <luca.rullo@mail.polimi.it> 1625166691 +0200	commit: Added the possibility to define a maximum number of runs of fuzz_one_original() through the definition of the macro RAIN_MAX_RUNS, at compile-time
+cd71362ce166f33843a0b6a330e5b34d33a8fcc2 99aa735e54e41a7c6500676490f553c986aa4646 lakystrike1996 <luca.rullo@mail.polimi.it> 1625474541 +0200	commit: Restored some mutations that were commented away due to the presence of the havoc stage
+99aa735e54e41a7c6500676490f553c986aa4646 237a4a34b4c1f102fac24953a144157d8387c3f7 lakystrike1996 <luca.rullo@mail.polimi.it> 1626946729 +0200	commit: OK
+237a4a34b4c1f102fac24953a144157d8387c3f7 84cef413e2296adc85f8be12374ad939360c5bf9 lakystrike1996 <luca.rullo@mail.polimi.it> 1627516207 +0200	commit: OK
+84cef413e2296adc85f8be12374ad939360c5bf9 bcaa4c9e8672aaaf844313ff036df8f9a4b08fa2 lakystrike1996 <luca.rullo@mail.polimi.it> 1627549510 +0200	commit: ok
+bcaa4c9e8672aaaf844313ff036df8f9a4b08fa2 65eff4db10e47b05ef83b56c1b9af83e5f3bfef5 lakystrike1996 <luca.rullo@mail.polimi.it> 1627560495 +0200	commit: ok
+65eff4db10e47b05ef83b56c1b9af83e5f3bfef5 f7878121fd0d1bf1f8e9c239eb5d5cc3346a4120 lakystrike1996 <luca.rullo@mail.polimi.it> 1627560848 +0200	commit: ok
+f7878121fd0d1bf1f8e9c239eb5d5cc3346a4120 3b0f7b88df00746a8988d025ce77e29103b9c18a lakystrike1996 <luca.rullo@mail.polimi.it> 1627561436 +0200	commit: ok
+3b0f7b88df00746a8988d025ce77e29103b9c18a 243f89af5fa8a8a2b724d9ff19f26d6ecd7bc320 lakystrike1996 <luca.rullo@mail.polimi.it> 1627562334 +0200	commit: ok
+243f89af5fa8a8a2b724d9ff19f26d6ecd7bc320 9b563e487ee6e45a2b065b645e3ea5614c76aa99 lakystrike1996 <luca.rullo@mail.polimi.it> 1627562600 +0200	commit: ok
+9b563e487ee6e45a2b065b645e3ea5614c76aa99 32bb9d092417cea2bdcca50c2a960a9e5d685371 lakystrike1996 <luca.rullo@mail.polimi.it> 1627570738 +0200	commit: ok
+32bb9d092417cea2bdcca50c2a960a9e5d685371 d832f64c8d1b780a3ac32d7ecb532bf54963c94e lakystrike1996 <luca.rullo@mail.polimi.it> 1627570847 +0200	commit: ok
+d832f64c8d1b780a3ac32d7ecb532bf54963c94e 77ed02e9034f69144784b91600639203b7511dbd lakystrike1996 <luca.rullo@mail.polimi.it> 1627571030 +0200	commit: ok
+77ed02e9034f69144784b91600639203b7511dbd 86a04ee6aa951f663d1c5333532d7f7cf37eb274 lakystrike1996 <luca.rullo@mail.polimi.it> 1627571407 +0200	commit: ok
+86a04ee6aa951f663d1c5333532d7f7cf37eb274 55aea420c514a5fdaff95373c35db7ea0c159356 lakystrike1996 <luca.rullo@mail.polimi.it> 1627572014 +0200	commit: ok
+55aea420c514a5fdaff95373c35db7ea0c159356 5c1a6ebd7e108765dfeb277f543d01d71357ead6 lakystrike1996 <luca.rullo@mail.polimi.it> 1627574918 +0200	commit: ok
+5c1a6ebd7e108765dfeb277f543d01d71357ead6 4d04963d5246456aa0457db113a684bc4552230e lakystrike1996 <luca.rullo@mail.polimi.it> 1627575699 +0200	commit: ok
+4d04963d5246456aa0457db113a684bc4552230e 4a423a60970f80108d79d3aa2e1d99577d4857a7 lakystrike1996 <luca.rullo@mail.polimi.it> 1627576119 +0200	commit: ok
+4a423a60970f80108d79d3aa2e1d99577d4857a7 175c2c144d40bc6cc2d20cd4ca46148db43901af lakystrike1996 <luca.rullo@mail.polimi.it> 1627576408 +0200	commit: ok
+175c2c144d40bc6cc2d20cd4ca46148db43901af 88b5a6775a0715cae4bf95870750de5059652951 lakystrike1996 <luca.rullo@mail.polimi.it> 1627577371 +0200	commit: ok
+88b5a6775a0715cae4bf95870750de5059652951 7346c4c41d9f2dc3d74ac4fcfc13a7bb2b2e4ff7 lakystrike1996 <luca.rullo@mail.polimi.it> 1628766105 +0200	commit: Introduced code to close the semaphores when done.
+7346c4c41d9f2dc3d74ac4fcfc13a7bb2b2e4ff7 76cea421e5b58087268f8a8c5a3939608d9d2eb8 lakystrike1996 <luca.rullo@mail.polimi.it> 1629754930 +0200	commit: ok
